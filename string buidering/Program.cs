@@ -12,15 +12,17 @@ namespace string_buidering
         static void Main(string[] args)
         {
             string str = "";
-            StringBuilder();           
+            StringBuilder sb=new StringBuilder();           
             //创建计时器
             Stopwatch sp = new Stopwatch();
             //记下开始时间
             sp.Start();
             for (int i = 0; i < 100000; i++)
             {
-                str += i;
-               
+                //耗时:00:00:18.2975312
+                //str += i;
+                //耗时：00:00:00.0222800
+                sb.Append(i);
             }
             //停止时间
             sp.Stop();
