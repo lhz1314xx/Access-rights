@@ -14,9 +14,10 @@ namespace _02_索引器
         //索引器
     public double this[int index]
         {
+            //返回指定索引所对应的元素数组的值
             get { return temps[index]; }
+            //设置指定索引所对应的数组元素的值
             set { temps[index] = value; }
-
         }
 
     }
@@ -28,11 +29,9 @@ namespace _02_索引器
             Console.WriteLine(P.temps[0]);
             Console.WriteLine(P.temps[1]);
             Console.WriteLine("==============");
-
+            //使用索引器进行访问数组元素的值
             Console.WriteLine(P[0]);
             Console.WriteLine(P[1]);
-
-
             Console.ReadKey();
 
 
