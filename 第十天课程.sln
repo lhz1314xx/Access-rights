@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.1209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十天课程", "第十天课程\第十天课程.csproj", "{884CBC0A-F192-4EE6-B625-33C27B4048CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01调用测试", "01调用测试\01调用测试.csproj", "{87D007D0-D3D7-480E-9F20-75C361F826FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 索引器", "02 索引器\02 索引器.csproj", "{EBB32CC6-38B6-49D9-92B5-6375DE15EFD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{884CBC0A-F192-4EE6-B625-33C27B4048CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{884CBC0A-F192-4EE6-B625-33C27B4048CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{884CBC0A-F192-4EE6-B625-33C27B4048CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D007D0-D3D7-480E-9F20-75C361F826FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D007D0-D3D7-480E-9F20-75C361F826FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D007D0-D3D7-480E-9F20-75C361F826FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D007D0-D3D7-480E-9F20-75C361F826FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB32CC6-38B6-49D9-92B5-6375DE15EFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB32CC6-38B6-49D9-92B5-6375DE15EFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB32CC6-38B6-49D9-92B5-6375DE15EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB32CC6-38B6-49D9-92B5-6375DE15EFD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
